@@ -10,9 +10,9 @@ jobs:
 
     steps:
       - uses: actions/checkout@v1
-      - uses: JasonEtco/activity-box@master
+      - uses: Hyraze/activity-box@master
         env:
           GH_PAT: ${{ secrets.GH_PAT }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          GH_USERNAME: JasonEtco
-          GIST_ID: 68c3458672047ec25e61a8af730181c3
+          GH_USERNAME: Hyraze
+          GIST_ID: 2e32a11dff171f3e132184b8b2e51643
